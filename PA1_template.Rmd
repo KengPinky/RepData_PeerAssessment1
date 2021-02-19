@@ -2,7 +2,9 @@
 title: "Project - 1"
 author: "Randall T"
 date: "2/16/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r, include=FALSE}
