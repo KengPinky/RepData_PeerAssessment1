@@ -408,7 +408,9 @@ library(tidyverse)</code></pre>
 ## x dplyr::lag()       masks stats::lag()
 ## x dplyr::last()      masks data.table::last()
 ## x purrr::transpose() masks data.table::transpose()</code></pre>
-<pre class="r"><code>activitydata &lt;- data.table::fread(input = &quot;activity.csv&quot;)</code></pre>
+<pre class="r"><code>library(knitr)
+
+activitydata &lt;- data.table::fread(input = &quot;activity.csv&quot;)</code></pre>
 </div>
 <div id="what-is-mean-total-number-of-steps-taken-per-day" class="section level2">
 <h2>What is mean total number of steps taken per day?</h2>
